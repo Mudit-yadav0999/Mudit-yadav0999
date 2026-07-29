@@ -1,56 +1,58 @@
 # Hi, I'm Mudit Yadav 👋
 
-### Computer Science & Engineering Student | C++ | Data Structures & Algorithms | Full-Stack Development
+### Computer Science & Engineering Student | C++ | DSA | Full-Stack Development
 
-I'm a **B.Tech Computer Science & Engineering student** passionate about software development, problem-solving, and building practical applications.
+I'm a **B.Tech Computer Science & Engineering student** passionate about software development, problem-solving, and building practical projects.
 
-Currently, I'm focused on strengthening my foundation in **Data Structures & Algorithms using C++** while expanding my skills in **Full-Stack Web Development**. I enjoy solving programming problems, learning new technologies, and building projects that turn ideas into real-world solutions.
-
----
-
-## 🚀 About Me
-
-* 🎓 Pursuing **B.Tech in Computer Science & Engineering**
-* 💻 Strong interest in **C++ and Data Structures & Algorithms**
-* 🌐 Learning and building with **Full-Stack Web Development**
-* 🧠 Regularly practicing problem-solving on **LeetCode and CodeChef**
-* 🔨 Building projects to improve my development and engineering skills
-* 🚀 Interested in **Software Development, Open Source, and Hackathons**
-* 📈 Continuously learning and improving my technical skills
+Currently, I'm focused on strengthening my **Data Structures & Algorithms skills using C++** while learning and building projects in **Full-Stack Web Development**.
 
 ---
 
-## 💻 Technical Skills
+## 👨‍💻 About Me
 
-### Languages
-
-`C++` `JavaScript` `Python`
-
-### Frontend Development
-
-`HTML` `CSS` `JavaScript` `React.js`
-
-### Backend Development
-
-`Node.js` `Express.js`
-
-### Database
-
-`MongoDB`
-
-### Core Concepts
-
-`Data Structures & Algorithms` `Object-Oriented Programming` `Problem Solving`
-
-### Tools & Technologies
-
-`Git` `GitHub` `VS Code`
+* 🎓 B.Tech Computer Science & Engineering Student
+* 💻 Currently learning **C++ and Data Structures & Algorithms**
+* 🌐 Exploring **Full-Stack Web Development**
+* 🧠 Practicing problem-solving on **LeetCode and CodeChef**
+* 🚀 Interested in **Software Development, Open Source & Hackathons**
+* 🔨 Building projects to improve my practical development skills
+* 📈 Always learning and improving
 
 ---
 
-## 🧩 Data Structures & Algorithms
+## 🛠️ Tech Stack
 
-I'm actively improving my problem-solving skills and working on:
+### Programming Languages
+
+<p>
+  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+</p>
+
+### Web Development
+
+<p>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"/>
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js"/>
+</p>
+
+### Tools
+
+<p>
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code"/>
+</p>
+
+---
+
+## 🧠 Data Structures & Algorithms
+
+Currently working on:
 
 * Arrays & Strings
 * Searching & Sorting
@@ -61,79 +63,72 @@ I'm actively improving my problem-solving skills and working on:
 * Recursion & Backtracking
 * Trees & Graphs
 * Dynamic Programming
+* Problem Solving
 
 ---
 
-## 🌐 Coding & Professional Profiles
+## 💻 Coding Profiles
 
-* **LeetCode:** [Mudit120906](https://leetcode.com/u/Mudit120906/)
-* **CodeChef:** [mudit_738](https://www.codechef.com/users/mudit_738)
-* **GitHub:** [Mudit-yadav0999](https://github.com/Mudit-yadav0999)
-* **LinkedIn:** [Mudit Yadav](https://www.linkedin.com/in/mudit-yadav-8b6a483a4/)
+<p>
+  <a href="https://leetcode.com/u/Mudit120906/">
+    <img src="https://img.shields.io/badge/LeetCode-Mudit120906-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode"/>
+  </a>
+  <a href="https://www.codechef.com/users/mudit_738">
+    <img src="https://img.shields.io/badge/CodeChef-mudit__738-5B4638?style=for-the-badge&logo=codechef&logoColor=white" alt="CodeChef"/>
+  </a>
+</p>
 
 ---
 
-## 📌 What I'm Currently Working On
+## 🚀 Projects & Learning
+
+I'm currently building and learning through projects in:
+
+* 🌐 Web Development
+* ⚡ JavaScript Applications
+* 💻 C++ Programming
+* 🧩 Data Structures & Algorithms
+* 🚀 Full-Stack Development
+
+Check out my repositories to explore my work and learning journey.
+
+---
+
+## 📈 My Learning Journey
 
 ```text
-C++ & DSA
-    ↓
+C++ Programming
+      ↓
+Data Structures & Algorithms
+      ↓
 Problem Solving
-    ↓
+      ↓
 Competitive Programming
-    ↓
+      ↓
 Frontend Development
-    ↓
+      ↓
 Backend Development
-    ↓
-Full-Stack Projects
-    ↓
-Real-World Software Development
+      ↓
+Full-Stack Development
+      ↓
+Building Real-World Projects
 ```
 
 ---
 
-## 📂 Projects
+## 🤝 Connect With Me
 
-I use GitHub to document my learning journey and showcase projects related to:
-
-* 🌐 Web Development
-* ⚡ JavaScript Applications
-* 💻 C++ & DSA
-* 🧩 Problem-Solving Solutions
-* 🚀 Full-Stack Development
-
-👉 Explore my repositories to see what I'm currently building and learning.
-
----
-
-## 📊 GitHub Activity
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Mudit-yadav0999&show_icons=true&theme=tokyonight&hide_border=true" height="170"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Mudit-yadav0999&theme=tokyonight&hide_border=true" height="170"/>
-</p>
-
----
-
-## 🤝 Let's Connect
-
-I'm always interested in connecting with developers, students, and technology enthusiasts.
-
-<p align="left">
+<p>
+  <a href="https://github.com/Mudit-yadav0999">
+    <img src="https://img.shields.io/badge/GitHub-Mudit--yadav0999-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
   <a href="https://www.linkedin.com/in/mudit-yadav-8b6a483a4/">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="https://leetcode.com/u/Mudit120906/">
-    <img src="https://img.shields.io/badge/LeetCode-Profile-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" />
-  </a>
-  <a href="https://www.codechef.com/users/mudit_738">
-    <img src="https://img.shields.io/badge/CodeChef-Profile-5B4638?style=for-the-badge&logo=codechef&logoColor=white" />
+    <img src="https://img.shields.io/badge/LinkedIn-Mudit%20Yadav-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
 </p>
 
 ---
 
-### 💡 Always learning. Always building. Always improving.
+### 💡 Always Learning. Always Building. Always Improving.
 
-**Thanks for visiting my profile!**
+**Thanks for visiting my profile! 🚀**
