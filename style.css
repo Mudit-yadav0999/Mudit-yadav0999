@@ -1,0 +1,647 @@
+/* ================================
+   GLOBAL STYLES
+================================ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Inter", "Segoe UI", Arial, sans-serif;
+    background: #0b1120;
+    color: #e5e7eb;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    width: 90%;
+    max-width: 1150px;
+    margin: auto;
+}
+
+.section {
+    padding: 100px 0;
+}
+
+.dark-section {
+    background: #080d19;
+}
+
+
+/* ================================
+   NAVBAR
+================================ */
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: rgba(11, 17, 32, 0.9);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid #1e293b;
+}
+
+.nav-container {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: 800;
+    color: #ffffff;
+}
+
+.logo span {
+    color: #60a5fa;
+}
+
+.navbar nav {
+    display: flex;
+    gap: 30px;
+}
+
+.navbar nav a {
+    color: #94a3b8;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.navbar nav a:hover {
+    color: #60a5fa;
+}
+
+
+/* ================================
+   HERO
+================================ */
+
+.hero {
+    min-height: calc(100vh - 70px);
+    display: flex;
+    align-items: center;
+    background:
+        radial-gradient(
+            circle at 80% 20%,
+            rgba(37, 99, 235, 0.15),
+            transparent 35%
+        );
+}
+
+.hero-content {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    gap: 80px;
+    align-items: center;
+}
+
+.intro {
+    color: #60a5fa;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.hero h1 {
+    font-size: clamp(50px, 8vw, 90px);
+    line-height: 1;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.hero h2 {
+    font-size: 25px;
+    color: #cbd5e1;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.hero-description {
+    max-width: 600px;
+    color: #94a3b8;
+    font-size: 17px;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 15px;
+    margin-top: 35px;
+}
+
+.btn {
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.primary-btn {
+    background: #2563eb;
+    color: white;
+}
+
+.primary-btn:hover {
+    background: #1d4ed8;
+    transform: translateY(-2px);
+}
+
+.secondary-btn {
+    border: 1px solid #334155;
+    color: #cbd5e1;
+}
+
+.secondary-btn:hover {
+    border-color: #60a5fa;
+    color: #60a5fa;
+}
+
+
+/* ================================
+   CODE CARD
+================================ */
+
+.code-card {
+    background: #111827;
+    border: 1px solid #1e293b;
+    border-radius: 12px;
+    padding: 35px;
+    font-family: "Courier New", monospace;
+    font-size: 16px;
+    line-height: 2;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+}
+
+.code-card p {
+    padding-left: 25px;
+}
+
+.code-purple {
+    color: #c084fc;
+}
+
+.code-blue {
+    color: #60a5fa;
+}
+
+.code-green {
+    color: #86efac;
+}
+
+
+/* ================================
+   SECTION HEADINGS
+================================ */
+
+.section-heading {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 50px;
+}
+
+.section-heading span {
+    color: #60a5fa;
+    font-family: monospace;
+    font-size: 16px;
+}
+
+.section-heading h2 {
+    font-size: 35px;
+    color: #ffffff;
+}
+
+.section-description {
+    color: #94a3b8;
+    max-width: 700px;
+    margin-bottom: 40px;
+}
+
+
+/* ================================
+   ABOUT
+================================ */
+
+.about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 70px;
+}
+
+.about-text p {
+    color: #94a3b8;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.about-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about-item {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    background: #111827;
+    border: 1px solid #1e293b;
+    border-radius: 8px;
+}
+
+.about-item i {
+    color: #60a5fa;
+    font-size: 22px;
+    margin-top: 5px;
+}
+
+.about-item h3 {
+    color: #ffffff;
+    font-size: 17px;
+}
+
+.about-item p {
+    color: #94a3b8;
+    font-size: 14px;
+}
+
+
+/* ================================
+   SKILLS
+================================ */
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.skill-card {
+    padding: 30px;
+    background: #111827;
+    border: 1px solid #1e293b;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.skill-card:hover {
+    transform: translateY(-5px);
+    border-color: #2563eb;
+}
+
+.skill-card > i {
+    color: #60a5fa;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.skill-card h3 {
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.tags span {
+    background: #1e293b;
+    color: #cbd5e1;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+
+/* ================================
+   DSA
+================================ */
+
+.dsa-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 15px;
+}
+
+.dsa-item {
+    padding: 20px;
+    text-align: center;
+    background: #111827;
+    border: 1px solid #1e293b;
+    border-radius: 7px;
+    color: #cbd5e1;
+    transition: 0.3s;
+}
+
+.dsa-item:hover {
+    color: #60a5fa;
+    border-color: #2563eb;
+}
+
+
+/* ================================
+   PROFILES
+================================ */
+
+.profile-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.profile-card {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 22px;
+    background: #111827;
+    border: 1px solid #1e293b;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.profile-card > i:first-child {
+    font-size: 25px;
+    color: #60a5fa;
+}
+
+.profile-card div {
+    flex: 1;
+}
+
+.profile-card h3 {
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.profile-card p {
+    color: #64748b;
+    font-size: 13px;
+}
+
+.profile-card > i:last-child {
+    font-size: 12px;
+    color: #64748b;
+}
+
+.profile-card:hover {
+    transform: translateY(-5px);
+    border-color: #2563eb;
+}
+
+
+/* ================================
+   PROJECTS
+================================ */
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.project-card {
+    padding: 30px;
+    border: 1px solid #1e293b;
+    border-radius: 10px;
+    background: #111827;
+    transition: 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-7px);
+    border-color: #2563eb;
+}
+
+.project-icon {
+    width: 50px;
+    height: 50px;
+    display: grid;
+    place-items: center;
+    background: #172554;
+    color: #60a5fa;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.project-card h3 {
+    color: #ffffff;
+    margin-bottom: 12px;
+}
+
+.project-card p {
+    color: #94a3b8;
+    font-size: 14px;
+}
+
+
+/* ================================
+   LEARNING JOURNEY
+================================ */
+
+.journey-section {
+    background: #080d19;
+}
+
+.journey {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.journey-step {
+    flex: 1;
+    min-width: 130px;
+    text-align: center;
+}
+
+.journey-step span {
+    display: grid;
+    place-items: center;
+    width: 45px;
+    height: 45px;
+    margin: auto auto 15px;
+    background: #172554;
+    color: #60a5fa;
+    border-radius: 50%;
+    font-weight: bold;
+}
+
+.journey-step h3 {
+    color: #cbd5e1;
+    font-size: 14px;
+}
+
+.journey-line {
+    width: 30px;
+    height: 1px;
+    background: #334155;
+}
+
+
+/* ================================
+   CONTACT
+================================ */
+
+.contact-section {
+    text-align: center;
+}
+
+.contact-content {
+    max-width: 700px;
+    margin: auto;
+}
+
+.contact-label {
+    color: #60a5fa;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+.contact-content h2 {
+    font-size: clamp(35px, 6vw, 60px);
+    line-height: 1.1;
+    color: #ffffff;
+    margin-bottom: 25px;
+}
+
+.contact-content > p:not(.contact-label) {
+    color: #94a3b8;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.social-links a {
+    width: 50px;
+    height: 50px;
+    display: grid;
+    place-items: center;
+    border: 1px solid #334155;
+    border-radius: 50%;
+    color: #cbd5e1;
+    transition: 0.3s;
+}
+
+.social-links a:hover {
+    color: #60a5fa;
+    border-color: #60a5fa;
+    transform: translateY(-4px);
+}
+
+
+/* ================================
+   FOOTER
+================================ */
+
+footer {
+    padding: 25px;
+    text-align: center;
+    border-top: 1px solid #1e293b;
+    color: #64748b;
+    font-size: 13px;
+}
+
+
+/* ================================
+   RESPONSIVE DESIGN
+================================ */
+
+@media (max-width: 900px) {
+
+    .hero-content,
+    .about-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .hero {
+        padding: 80px 0;
+    }
+
+    .skills-grid,
+    .profile-grid,
+    .project-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .dsa-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .hero-card {
+        display: none;
+    }
+
+    .journey-line {
+        display: none;
+    }
+}
+
+
+@media (max-width: 600px) {
+
+    .navbar nav {
+        display: none;
+    }
+
+    .section {
+        padding: 70px 0;
+    }
+
+    .hero h1 {
+        font-size: 55px;
+    }
+
+    .hero h2 {
+        font-size: 20px;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+    }
+
+    .btn {
+        text-align: center;
+    }
+
+    .skills-grid,
+    .profile-grid,
+    .project-grid,
+    .dsa-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .section-heading h2 {
+        font-size: 28px;
+    }
+
+    .journey {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .journey-step {
+        width: 100%;
+    }
+
+}
