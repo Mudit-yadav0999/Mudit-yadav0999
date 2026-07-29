@@ -94,6 +94,14 @@ Check out my repositories to explore my work and learning journey.
 
 ---
 
+## 📊 GitHub Contribution Graph
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Mudit-yadav0999&theme=tokyo-night&hide_border=true&area=true" alt="Mudit Yadav's GitHub Contribution Graph"/>
+</p>
+
+---
+
 ## 📈 My Learning Journey
 
 ```text
